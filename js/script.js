@@ -10,6 +10,8 @@ function loadDoc(URL, callBack) {
 }
 
 //* Create posts */
+if(window.location.pathname == "/index.html")
+{
 var createElement2 = [] ,
   createElement = [],
   createTitle = [],
@@ -70,3 +72,4 @@ loadDoc("../Data/titlePost.txt", function (data) {
     });
   });
 });
+}
