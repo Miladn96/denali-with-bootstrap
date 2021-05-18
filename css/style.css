@@ -1,0 +1,122 @@
+* {
+    color: #333333;
+    font-family: Lato, sans-serif;
+}
+header {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 0px 3px #333333;
+}
+body{
+    background-color: #f0f0f0;
+}
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+/** Aside **/
+.asideContainer {
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 20px;
+}
+.profile {
+    margin-bottom: 30px;
+}
+.link {
+    color: #aaa;
+}
+.link:hover {
+    color: #757575;
+    
+}
+.gray-rule{    
+    background-color: rgb(216, 215, 215);
+    height: 1.05px;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+.logosLink {
+    margin-top: 10px;
+}
+.fa {
+    margin-right: 10px;
+}
+
+/** Main style **/
+.mainContainer > article {
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.article-posts {
+    margin-top: 20px;
+    padding: 15px;
+}
+.article-posts:last-child{
+    margin-bottom: 50px;
+}
+.img-posts{
+    display: block;
+    float: left;
+    width: 200px; 
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.title-posts{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+}
+.tag-posts {
+    color: #aaa;
+}
+.main-posts {
+    color: #aaa;
+}
+.main-posts a {
+    color: #aaa;
+}
+.main-posts a:hover {
+    color: #757575;
+    text-decoration: none;
+}
+.prag {
+    color: #aaa;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+/** Class Styles **/
+.mainContainer {
+    margin-top: 30px;
+}
+.asideContainer {
+    margin-top: 30px;
+}
+.menuLink {
+    margin-left: 5px;
+    padding: 10px;
+    color: #aaa;
+}
+.menuLink:hover {
+    color: #333333;
+}
+
+
+/** Id styles **/
+#logoLink{
+    font-size: 16pt;
+    color: #333333;
+}
+#mainAllPosts{
+    padding-bottom: 5px;
+}
+
+.col-lg-8 , .col-lg-4 {
+    position: relative;
+}
